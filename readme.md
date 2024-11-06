@@ -11,11 +11,10 @@ go mod init myproject
 
 # run
 go run main.go
-
-go mod tidy: clean go.mod
+go mod tidy				clean go.mod
 
 # etc
-go build: compile to bin
-go run: compile and run
-go fmt: fmt the code
+go build				compile to bin
+go run					compile and run
+go fmt					fmt the code
 
